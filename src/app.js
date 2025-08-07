@@ -4,6 +4,7 @@ import { MessageRouter } from './routes/message.route.js'
 import { errorHandler } from "./middlewares/errorHandler.js";
 import cors from 'cors'
 import cookieParser from "cookie-parser";
+import "dotenv/config"
 
 const app = express();
 const options = {
